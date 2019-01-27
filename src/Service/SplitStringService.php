@@ -21,7 +21,7 @@ class SplitStringService
         $result = [];
         foreach ($patterns as $pattern) {
             $result[] = substr($string, $start, $pattern);
-            $start = +$pattern;
+            $start += $pattern;
         }
 
         return $result;

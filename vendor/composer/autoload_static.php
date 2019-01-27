@@ -64,8 +64,8 @@ class ComposerStaticInitcf03d2e4f376ff36d37bb356fe2f45e3
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -191,6 +191,8 @@ class ComposerStaticInitcf03d2e4f376ff36d37bb356fe2f45e3
         'App\\Command\\ComputeMultiplicityCommand' => __DIR__ . '/../..' . '/src/Command/ComputeMultiplicityCommand.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
         'App\\Service\\CombineService' => __DIR__ . '/../..' . '/src/Service/CombineService.php',
+        'App\\Service\\SplitStringService' => __DIR__ . '/../..' . '/src/Service/SplitStringService.php',
+        'App\\Service\\SubsetProblemSolver' => __DIR__ . '/../..' . '/src/Service/SubsetProblemSolver.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',

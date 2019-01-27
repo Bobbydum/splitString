@@ -9,6 +9,8 @@ return array(
     'App\\Command\\ComputeMultiplicityCommand' => $baseDir . '/src/Command/ComputeMultiplicityCommand.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
     'App\\Service\\CombineService' => $baseDir . '/src/Service/CombineService.php',
+    'App\\Service\\SplitStringService' => $baseDir . '/src/Service/SplitStringService.php',
+    'App\\Service\\SubsetProblemSolver' => $baseDir . '/src/Service/SubsetProblemSolver.php',
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
     'DeepCopy\\Exception\\PropertyException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
